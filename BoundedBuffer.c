@@ -1,4 +1,3 @@
-/*Sourav Das, B00785668*/
 
 //adding the libraries needed for this program
 #include <stdio.h>
