@@ -43,7 +43,7 @@ int main(int argc, char *argv[]){//the main takes argc number of arguments and t
 	int timeUser, producerthreads, consumerthreads;//three variables to store three arguments from the users
 
 	//three arguments from std input are being stored for later execution of the program and threads
-    timeUser = atoi(argv[1]);
+        timeUser = atoi(argv[1]);
 	producerthreads = atoi(argv[2]);
 	consumerthreads = atoi(argv[3]);
 
@@ -51,7 +51,7 @@ int main(int argc, char *argv[]){//the main takes argc number of arguments and t
 	producerNo=producerthreads;
 	consumerNo=consumerthreads;
 
-	//initializing all the elements of the buffer to -1
+    //initializing all the elements of the buffer to -1
     for(int i=0;i<BUFFER_SIZE; i++){
     buffer[i]= -1;
     }
